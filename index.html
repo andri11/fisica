@@ -1,0 +1,1158 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FISICA II</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/tema.min.css" />
+<link rel="stylesheet" href="css/jquery.structure-1.4.5.min.css" />
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>FISICA</h1>
+</div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMI" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>UNIDAD 1</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMII" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>UNIDAD 2</h2>
+
+</a>
+</li>
+
+
+</ul>
+<div data-role="footer" align="center" data-theme="a">
+
+<div>
+<h4>Cruz Sanchez Andri Jaret,Perez Sanchez Jose Angel</h4>
+
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="PaginaMI" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>UNIDAD 1 "Estados de agregacion" </h1>
+<h2></h2>
+</div>
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMA" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Solidos</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Paginafluidos" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Fluidos(liquidos)</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMAA" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Hidrostatica</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMAAA" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Hidrodinamica</h2>
+
+</a>
+</li>
+</ul>
+<div data-role="footer" align="center" data-theme="a">
+
+<div>
+<h4>Cruz Sanchez Andri Jaret,Perez sanchez Jose Angel</h4>
+
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="PaginaMII" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1> UNIDAD 2 "Termologia" </h1>
+<h2></h2>
+</div>
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaME" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Temperatura</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMEE" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Calor</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMEEE" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Formas de dilatacion termica</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMEEEE" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Formas de transmitir el calor</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMEEEEE" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Gases</h2>
+
+</a>
+</li>
+</ul>
+<div data-role="footer" align="center" data-theme="a">
+
+<div>
+<h4>Cruz Sanchez Andri Jaret,Perez sanchez Jose Angel</h4>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="PaginaMA" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>Solidos </h1>
+
+</div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#elasticidad" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Elasticidad</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#hooke" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ley de hooke</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#melasticidad" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Modulo de elasticidad</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#young" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Modulo de young</h2>
+
+</a>
+</li>
+
+</ul>
+
+
+</div>
+</div>
+<div data-role="page" id="PaginaMAA" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>HIDROSTATICA </h1>
+
+</div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#normal" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Presion normal</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#atmosferica" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Presion atmosferica</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#absoluta" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Presion absoluta</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#manometrica" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Presion manometrica</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#hidrostaticaA" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Presion hidrostatica</h2>
+
+</a>
+</li>
+
+</ul>
+
+
+</div>
+</div>
+<div data-role="page" id="PaginaMAAA" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>HIDRODINAMICA </h1>
+
+</div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#gasto" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Gasto volumetrico</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#ecuacion" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ecuacion de continuidad</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#torriceli" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Teorema de torriceli</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#bernouli" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Teorema de Bernouli</h2>
+
+</a>
+</li>
+
+</ul>
+
+
+</div>
+</div>
+
+
+<div data-role="page" id="solidos" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>SOLIDOS </h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Fue descubierta por Robert Hooke el cual establecio lo siguiente"La cantidad de estiramiento es directamente proporcional a la fuerza aplicada".</P>
+
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="PaginaME" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>TEMPERATURA </h1>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#concepto" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Concepto y unidades</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#medicion" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Medicion y escalas</h2>
+
+</a>
+</li>
+
+
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="PaginaMEE" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CALOR </h1>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#calor" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Concepto y propiedades</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#medicionA" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Cantidad de calor y unidades</h2>
+
+</a>
+</li>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#alorespecifico" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Calor especifico y capacidad calarifica</h2>
+
+</a>
+</li>
+
+
+<li class="ui-first-child ui-last-child">
+<a href="#medicionB" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Calor latente de fusion y calor latente de evaporacion</h2>
+
+</a>
+</li>
+
+
+
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="PaginaMEEE" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>FORMAS DE DILATACION TERMICA </h1>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#lineal" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Dilatacion lineal</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#area" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Dilatacion de area</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#volu" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Dilatacion de volumen</h2>
+
+</a>
+</li>
+
+
+
+
+
+</ul>
+
+</div>
+
+</div>
+</div>
+</div>
+<div data-role="page" id="PaginaMEEEE" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>FORMAS DE TRASMITIR EL CALOR </h1>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#conduccion" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Conducion</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#conveccion" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Convecion</h2>
+
+</a>
+</li>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#radiaccion" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Radiacion</h2>
+
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</div>
+</div>
+<div data-role="page" id="Paginafluidos" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>FLUIDOS (Liquidos) </h1>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#propiedades" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Propiedades</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#arquimidez" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Principio de arquimidez</h2>
+
+</a>
+</li>
+
+
+
+</ul>
+
+</div>
+
+</div>
+</div>
+</div>
+<div data-role="page" id="PaginaMEEEEE" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>GASES </h1>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#charles" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ley de Charles</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#gay" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ley de Gay-Lussac</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#ideales" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ley gases ideales</h2>
+
+</a>
+</li>
+
+
+
+
+</ul>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="elasticidad" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>ELASTISIDAD </h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Es la propiedad que tienen los cuerpos de recuperar su forma original una ve que desaparece la fuerza que ocaciona la deformacion <br> Ejem. Liga , Resorte.</P>
+
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="hooke" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>LEY DE HOOK </h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Fue descubierta por Robert Hooke,establecio lo siguiente:"La cantidad de estiramiento es directamente proporcional a la fuerza indicada", esto quiere decir que cuando una fuerza es aplicada a un cuerpo produce una deformacion y se dice que el esfuerzo es la causa que origina la deformacion elastica</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>FORMULA</h1>
+<P><CENTER>F=Kx</CENTER><br>
+F=Fuerza aplicada[newton,N]<br>
+K=Constante de proporcionalidad o constante  del resorte[N/M]<br>x=Deformacion del resorte[m]<br></P>
+</div>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="melasticidad" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>MODULO DE ELASTISIDAD </h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Modulo De Elasticidad= Esfuerzo/Deformacion<br>
+<center>M.E=E/D=(N/M2)/Adimencional</center></P>
+</div>
+<p>En los solidos el esfuerzo se conoce como la resistencia del cuerpo y equivale a la cantidad de fuerza que soporta por cantidad de area</p>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula</h1>
+<P><center>E=F/A</center><Br>
+E=Esfuerzo[N/M2=Pascal]<br>
+F=Fuerza Aplicada[N]<br>
+A=Area[CM2,M2,MM2]</P>
+</div>
+<p>Como esfuerzos y deformacion son aplicadas a barillas o barras son concideradas longitudinales</p>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula</h1>
+<P><center>D=^I/I</center><BR>
+D=Deformcion Longitudinal o unitaria<br>
+^L=Incremento o Variacion Longitudinal[M]<BR>
+L=Longitud Inicial[M]
+</P>
+</div>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="young" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>LEY DE YOUNG </h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Cuando el modulo de elasticidad se sustituye sus ecuaciones la de esfuerzo a deformacion unitaria se forma el modulo de young.<br>El modulo de young, es una caracteristica de los solidos, conocer su valor nos permitira calcular la deformacion que sufre un cuerpoal ser sometido en un esfuerzo</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>Y=FL/A^L</center>
+Y=Modulo De Young<br>
+F=Fuerza<br>
+A=Area<br>
+^L=Incremento De Longitud<br>
+L=Longitud</P>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div data-role="page" id="propiedades" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>PROPIEDADES </h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>VISCOSIDAD.-Medida de la resistencia que presenta un liquido al fluir. Ejem.Miel Aceite<br>
+TENSION SUPERFICIAL.-Es una capa delgada de un liquido que se comporta como si fuera una membrana elastica.Ejem.Leche Al Crear La Nata<br>
+ADHESION.-Es la fuerza de atraccion que se ejerce entre moleculas de dos sustancias diferentes cuando estan en contacto<br>
+COHESION.-Es la fuerza de atraccion que se ejerce entremoleculas de una misma sustancia.<br>
+CAPILARIDAD.-Se presenta cuando existe contacto entre un liquido y una pered solida, especialmente si son tubos delgados.<br>
+DENCIDAD.-Se define como el cociente que resulta de dividir la masa de una sustancia entre el volumen que ocupa y es una propiedad caracteristica de cualquier sustancia.</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>d=M/V</center><br>
+d=Densidad[kg/M3]<br>
+M=Masa<br>
+V=Volumen[m3]</P>
+</div>
+PESO ESPECIFICO.-Se define como el cociente de dividir el peso de una sustancia entre el volumen.<br>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>Y=P/V</center><br>
+Y=Peso Especifico[N/M3]<br>
+P=Peso[N]<br>
+V=Volumen[M3]</P>
+</div>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="arquimidez" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>PRINCIPIO DE ARQUIMIDEZ</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Todo cuerpo sumergido en un fluido recibe un empuje ascendente igual al peso del fluido desalogado.<br>
+1.-Si el peso de un cuerpo es menor al empuje que recibe ,el cuerpo flota, ya que desaloja una menor cantidad de liquido de su volumen.<br>2.-Si el peso del cuerpo es igual al empuje que recibe, permanece en equilibro.<br>3.-Si el peso del cuerpo es mayor al empuje se unde. </P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>E=DGV</center><br>
+E=empuje[N]<br>
+V=volumen[m3]<br>
+D=densidad[Kg/m3]<br>
+G=gravedad terrestre[9.81]</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="empuje" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>EMPUJE</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>empuje hola</P>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="normal" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>PRESION NORMAL</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Es una de las propiedades de los fluidos donde la fuerza que se aplica es perpendicular a una superficie</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>Pr=F/A</center><br>
+Pr=Presion normal[N/m2, pascal]<br>
+F=fuerza aplicada[N]<br>
+A=area[m2]<br>
+</P>
+</div>
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="atmosferica" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>PRESION ATMOSFERICA</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Se define como el peso que ejerce el aire sobre los cuerpos en la superficie terrestre.El aire ejerce una fuerza sobre todo lo que hay en la superficie entonces la atmosfera esta constituida por varios gases que varian en cantidad, estas mesclas reciben el nombre de aire.<br>Sus unidades de medida son atmosferas(atm),milimetro de mercurio(mmhg) y pascales(pa)<br>1atm=760mmhg=1.013x10^6pa=101300pa</P>
+
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="absoluta" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>PRESION ABSOLUTA</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Se conoce como la presion total o la suma debido al fluido y la presion atmosferica. </P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P>Cuando un recipiente esta cerrado:<br><center>Pabs=pman+patm</center><br>
+Cuando estan en un recipiente abierto:<br><center>pabs=ph+patm</center>
+</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="manometrica" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>PRESION MANOMETRICA</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Se define como la presion conjinada en un recipiente cerrado</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>Pman=pabs-patm</center><br>
+pman=Presion manometrica<br>
+pabs=presion absoluta<br>
+patm=presion atmosferica
+</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="hidrostaticaA" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>PRESION HIDROSTATICA</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Esta presion actua en todas las direcciones por lo que se define como la presion que ejerce a todos los fluidos sobre el fondo y las paredes del recipiente que lo contienen</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>Ph=yh<br>Ph=p/vh<br>Ph=pgh</center><br>
+Ph=presion hidrostatica(pa)<br>
+y=peso especifico(N/m3)<br>
+h=altura(m)<br>
+p=peso normal(N)
+D=densidad(kg/m3)
+g=gravedad terrestre(9.81)
+</P>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div data-role="page" id="gasto" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>GASTO VOLUMETRICO</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Se define como el volumen del liquido que fluye atravez de una tuberia y el tiempo que tarda en fluir </P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>Q=v/t</center><br>
+Q=gasto(m3/s)<br>
+v=volumen(m3)<br>
+t=tiempo(s)
+</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="ecuacion" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>ECUACION DE CONTINUIDAD</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>"Cuando un fluido circula sobre una tuberia de seccion variante el  gasto permanece constante"</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>Q1=Q2=Q3<br>A1V1=A2V2=A3V3</center><br>
+
+</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="torriceli" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>TEOREMA DE TORRICELLI</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>La velocidad de salida de un fluido por un orifcio de un recipiente a cierta altura es la misma si se tirara un objeto en caida libre</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>V=√2gh</center><br>
+V=velocidad(m/s)<br>
+h=altura(m)<br>
+g=gravedad terrestre(9.81)
+</P>
+</div>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="bernouli" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>TEOREMA DE BERNOLLI</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Descubrio que la presion de un fluido que pasa por una tuberia y baja mientras que la velocidad es alta y viceversa.<br>"La suma de las energias cineticas, potencial y de presion que posee in liquido a lo largo de un conducto permanese constante." </P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>P1+DV1^2/2+DGH=P2+DV2^2/2+DGH</center><br>
+P1,P2=Presion De Cada Lado De L Tuberia(N/M^2)<br>
+D=Densidad Del Fluido(kg/m3)<br>
+G=gravedad terrestre(9.81)<br>
+V1,V2=Velocidades del fluido en cada tubo(m/s)<br>
+H=Altura(M)
+
+</P>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div data-role="page" id="concepto" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CONCEPTO Y UNIDADES</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Temperatura.-Solo se mide la energia lirada por las moleculas que se encuentran en movimiento.<br>
+CELSIUS O CENTRIGADO.-Ander Celsius dar a conocer la escala de 100 tomando en cuenta como 0 la fusion del agua y 100 de ebullicion de agua.<br>
+FAHRENTHEIT.-Gabriel Daniel F. establese que el punto fijo superior es la temperatura en ebullicion a 212F y punto inferior de 32F.<br>
+KELVIN O ADSOLUTA.-Willian Thomsomp O Lord Kelvin Propone una escala donde su importancia radical en el 0 ,denominada cero absoluto.<br>
+RANKINE.-Tambien se concidera el cero absoluto como punto mas bajo.Cada grado de temperatura equivale a un grado en escala Farentheit.El punto de fusion 492R.</P>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="medicion" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>MEDICION Y ESCALAS</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P><h2>De C a F------>F=1.8(C)+32<br>
+De F a C------>C=(F-32)/1.8<br>
+De C a K------>K=C+273<br>
+De K a C------>C=K-273<br>
+De F a R------>R=F+460</h2></P>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="calor" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CONCEPTO Y PROPIEDADES</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>*El calor tambien se conoce como energia calorifica.<br>*La materia no tiene calor ,pose energia en diversas formas.<br>*El calor tambien se define como la energia termica absorvida y liverada cuando existen un cambio de temperatura.<br>*Mientras mas calor haya mas movimiento de moleculas.<br>*El calor se transfiere de un cuerpo a otro durante una variacion de temperatura.</P>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="medicionA" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CANTIDAD DE CALOR Y UNIDADES</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Como el calor es una energia se relaciona con el trabajo mecanico y su unidad es el Joule(J),sin embargo hay otras unidades dependiendo del contexto.<br></P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Unidades del calor:</h1>
+<P><center>1Kcal=1000cal<br>1cal=4.187Joules<br>1Joule=0.24cal<br>1BTU=252cal</center><br>
+BTU=Unidad termica britanica(se utiliza en aire comprimido,generadores de vapor).
+</P>
+</div>
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="alorespecifico" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CALOR ESPECIFICO Y CAPACIDAD CALORIFICA</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Calor especifico:Cuando la sustancia es la misma, la capacidad calorifica de la sustancia no cambia, pero pueden presentar diferentes masas por lo cual cada una absorbe diferente cantidad de calor,es decir la masa determina de calor necesario.</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>Ce=C/M</center><br>
+CE=Calor especifico(cal/g centigrados)<br>
+^Q=Variacion de calor(cal)<br>
+^T= Variacion de tiempo(centigrados)
+M=masa(g)
+</P>
+</div>
+<p>Capacidad calorifica=Todas la sustancias necesitan absorber una sierta cantidad de calor para variar su temperatura.La cantidad de calor es necesaria para cada sustancia.</p>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>C=^Q/^T</center><br>
+C=capacidad calorifica(cal/centigrados)<br>
+^Q=Variacion de calor(cal)<br>
+^T= Variacion de tiempo(centigrados)
+</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="cambiosdeesyado" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CAMPOS DE ESTADO PROVACADOS POR EL CALOR</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P> hola</P>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="medicionB" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CALOR LATENTE DE FUSION Y CALOR LATENTE DE EVAPORACION</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Calor latente de fusion:Se le llama a la energia necesaria para combinar un gramo de sustancia en estado solido a estado liquido sin cambiar su temperatura.Esta energia rompe los enlaces de los solidos y queda una significativa cantidad asociada con los esfuerzos intermoleculares del estado liquido.<br>Calor latente de evaporacion:Cuando se entrega energia en forma de calor al liquido esta energia se utiliza para aumentar la temperatura del mismo.Cuando alcanza la temperatura de evaporacion, la energia se utiliza para el cambio de estado liquido o gaseoso pero esta  transformacion no es instantanea.</P>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="lineal" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>DILATACION LINEAL</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Varian si longitud de manera constante al variar su temperatura.existe un coeficiente lineal especifico para cada sustancia y se representa ∞.</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>^L=∞Li^T Lf=Li(1+∞(Tf-Ti))</center><br>
+∞=Coeficiente lineal(1/centigrados)<br>
+^L=Dilatacion lineal(M)<br>
+^T=Incremento de la temperatura(Tf-Ti)<br>
+Lf=Longitud final(M)<br>
+Li=Longitud incial(M)
+</P>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div data-role="page" id="area" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>DILATACION DE AREA</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Al aumentar su temperatura los solidos sufren un aumento en su area.Los herreros utilizan este fenomeno para adelgazar o estirar barras para rejas y puertas.<br>El coeficiente de dilatacion de area es:B=2∞</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>^S=BAi^T</center><br>
+B=Coeficiente de dilatacion(1/centigrados)<br>
+^S=Dilatacion de area(M2,cm2,mm2)<br>
+^T=Incremento de la temperatura(Tf-Ti)<br>
+Ai=area inicial(m2,cm2,mm2)<br>
+Af=area fianl(m2,cm2,mm2)
+</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="volu" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>DILATACION DE VOLUMEN</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Tanto solidos como liquidos y gases al variar su temperatura sufren un aumento en su volumen.<br>el coeficiente de dilatacion volumetrica es:Y=3∞</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>^V=YVi^T</center><br>
+Y=Coeficiente de dilatacion volumetrica(1/centigrados)<br>
+^V=Dilatacion de volumen(M2,cm2,mm2)<br>
+^T=Incremento de la temperatura(Tf-Ti)<br>
+Vi=Volumen inicial(m2,cm2,mm2)<br>
+Vf=Volumen final(m2,cm2,mm2)
+</P>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div data-role="page" id="conduccion" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CONDUCCION</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Es un proceso de transmicion de calor basado en el contacto directo entre los cuerpos sin el intercambio de materia, por lo que el calor fluye desde un cuerpo de mayor temperatura a otro de menor temperatura que esta en contacto con el primero.</P>
+
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="conveccion" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>CONVECCION</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Es la transmicion de calor por movimiento real de las moleculas de una sustancia.Este fenomeno solo podria producirse en fluidos en los que por movimiento natural o circulacion forzada puedan las particulas desplazarse transportando el calor sin interrumpir la continuidad fisica del cuerpo.</P>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="radiaccion" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>RADIACION</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Es la transmicion de calor entre dos cuerpos los cuales, en un instante dado tiene temperaturas distintas, sin que entre ellos exista contacto o conduccion por otro solido conductor.Es una forma de emision de ondas electromagneticas (Asociaciones de campos electricos y magneticos que se prolongan a la velocidad de la luz) que emana de todo cuerpo que este en mayor temperatura que el cero absoluto.El ejemplo perfecto de este fenomeno es el planeta Tierra.Los rayos solares atraviezan la atmosfera sin calentarla y se transforman en calor en el momento que entran en contacto con la Tierra.</P>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="charles" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>LEY DE CHARLES</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>JACQES CHARLES (1774-1823)<br>
+Determino "El volumen que ocupa un gas es directamente proporcionalmente a su temperatura absoluta, si su presion permanece constante"</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>ViTf=VfTi</center><br>
+Vi=Volumen Inicial(lts, m3, cm3)<br>
+Ti=Temperatura Inicial<br>
+Vf=Volumen Final(lts, m3, cm3)<br>
+Tf=Temperatura Final<br>
+P=Presion Constante(Un gas a 20 grados centigrados).
+</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="gay" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>LEY DE GAY-LUSSAC</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Fisico franse Gay-Lussac (1778-1850)<br>
+Determina la relacion que presenta la temperatura y la presion.<br>
+"Si el volumen de un muestra de gas permanese constante, la presion absoluta de dicho gas es directamente proporcional a su temperatura absoluta" Si la temperatura se incrementa la presion aumenta y viceversa.</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>PiTi=PfTf</center><br>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="boyle" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>LEY DE BOYLE-MARROTTE</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P> hola</P>
+
+</div>
+
+</div>
+</div>
+<div data-role="page" id="ideales" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>LEY DE GASES IDEALAES</h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P>Es una generalizacion de las leyes de Boyle, Charles Y Gay Lussac.<br>
+"El volumen de una masa gaseosa es inversamente proporcinal a la presion absoluta a la que es sometida y directamente proporcional a la temperatura que se expone."</P>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Formula:</h1>
+<P><center>PiViTf=PfVfTi</center><br>
+</P>
+</div>
+</div>
+
+</div>
+</div>
+<div data-role="page" id="lgaseoso" data-add-back-btn="true" data-theme="a">
+ <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>LEY DE ESTADO GASEOSO </h1>
+
+</div>
+<div data-roler="content" align="center">
+<div>
+<P> hola</P>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
